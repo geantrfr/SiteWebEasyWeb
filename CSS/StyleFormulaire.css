@@ -1,0 +1,57 @@
+
+.form_login_page {
+    width: 300px;
+    margin: auto;
+    margin-top: 200px;
+}
+
+.container_login_ask {
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+    background: linear-gradient(to bottom, #33435C 0%, #06285F 100%);
+    border-radius: 5px;
+}
+
+.field_login {
+    margin: -12px 2px 12px 0;
+    padding: 5px 10px;
+    font-size: 20px;
+    color: darkslategrey;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+}
+
+.container_login_ask label {
+    font-weight: 400;
+    color: #72777c;
+    font-size: 14px;
+}
+
+.bottum_validation_login {
+    height: 30px;
+    line-height: 26px;
+    margin-bottom: 5px;
+    background-color: #0db6cb;
+    border: 1px solid #006799;
+    border-radius: 3px;
+    color: white;
+    text-shadow: 2px 1px 1px #000000;
+}
+
+.container_valid_log {
+    display: flex;
+}
+
+.container_valid_log label {
+    margin-right: 8px;
+    font-size: 12px;
+}
+
+/* Commun Shadow */
+.header_global,
+.field_login,
+.bottum_validation_login,
+.container_login_ask {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
